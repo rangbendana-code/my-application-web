@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jhon Ralph R. Bendaña | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+:root{--maroon:#641b38;--deep:#35101f;--pink:#f6c9d9;--pale:#fff3f7;--ink:#33232b}
+body{font-family:Arial,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
+header{background:linear-gradient(135deg,var(--deep),var(--maroon));color:#fff}
+nav{max-width:1050px;margin:auto;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.logo{font-size:26px;font-weight:bold;color:#fff;text-decoration:none}
+.logo span,h1 span{color:var(--pink)}
+.links{display:flex;gap:10px;flex-wrap:wrap}
+.links a{color:#fff;text-decoration:none;font-size:14px;padding:8px 12px;border-radius:20px}
+.links a:hover,.links a.active{background:var(--pink);color:var(--deep)}
+.hero{max-width:1050px;margin:auto;padding:55px 6% 75px;display:flex;align-items:center;gap:34px}
+.hero-copy{flex:1}
+.profile-photo{width:190px;height:190px;object-fit:cover;object-position:center 35%;border-radius:50%;border:6px solid var(--pink);box-shadow:0 8px 25px #16071166;flex-shrink:0}
+.eyebrow{font-size:12px;letter-spacing:2px;font-weight:bold;color:#a64c70}
+header .eyebrow{color:var(--pink)}
+h1{font-size:clamp(34px,7vw,58px);line-height:1.15;margin:12px 0}
+.hero h2{font-size:21px;font-weight:normal}
+.hero p.desc{max-width:620px;color:#f7e8ee;margin:16px 0 25px}
+.btn{display:inline-block;background:var(--pink);color:var(--deep);padding:11px 18px;border-radius:7px;text-decoration:none;font-weight:bold}
+section{padding:58px 6%;max-width:1050px;margin:auto}
+section.tinted{max-width:none;background:var(--pale)}
+.inner{max-width:930px;margin:auto}
+h2{font-size:30px;color:var(--maroon);margin:4px 0 20px}
+.card{background:#fff;border:1px solid #efd5df;border-radius:12px;padding:22px;box-shadow:0 5px 18px #4a142b0d}
+.card p+p{margin-top:8px}
+.about{margin-top:14px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.year{color:#a64c70;font-size:13px;font-weight:bold}
+h3{color:var(--maroon);margin:6px 0}
+ul{padding-left:22px}
+pre{background:#26141d;color:#ffeaf2;padding:17px;border-radius:9px;overflow-x:auto;font-size:12px;line-height:1.5;margin-top:16px;white-space:pre}
+code{font-family:Consolas,monospace}
+.contact a{color:var(--maroon);overflow-wrap:anywhere}
+footer{background:var(--deep);color:#fff;text-align:center;padding:20px;font-size:13px}
+@media(max-width:650px){nav{align-items:flex-start;flex-direction:column}.hero{flex-direction:column-reverse;align-items:flex-start;padding-top:35px}.profile-photo{width:145px;height:145px}.grid{grid-template-columns:1fr}section{padding:45px 6%}}
+</style>
+</head>
+<body>
+<header id="home">
+<nav>
+<a class="logo" href="#home">JR<span>.</span></a>
+<div class="links">
+<a href="#profile" class="active">Profile</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#java">Java Code</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+<div class="hero">
+<div class="hero-copy">
+<p class="eyebrow">BSIT STUDENT • OLSHCO</p>
+<h1>Hello, I'm <span>Jhon Ralph</span></h1>
+<h2>Junior Programmer / BSIT Student</h2>
+<p class="desc">Welcome to my personal portfolio. I enjoy learning about programming, web development, and how technology works.</p>
+<a class="btn" href="#profile">View My Profile</a>
+</div>
+<img class="profile-photo" src="profile.jpg" alt="Profile photo of Jhon Ralph R. Bendaña">
+</div>
+</header>
+<section id="profile"><div class="inner"><p class="eyebrow">GET TO KNOW ME</p><h2>My Profile</h2><div class="card">
+<p><b>Full Name:</b> Jhon Ralph R. Bendaña</p>
+<p><b>Position:</b> Junior Programmer / BSIT Student</p>
+<p><b>Location:</b> Guimba, Nueva Ecija, Philippines</p>
+<p class="about">I am a Bachelor of Science in Information Technology student. I am very interested in programming, web development, and technology. I enjoy learning new things, improving my skills, and exploring how technology works and how it can be used to solve problems.</p>
+</div></div></section>
+<section class="tinted" id="education"><div class="inner"><p class="eyebrow">MY LEARNING JOURNEY</p><h2>Educational Background</h2><div class="grid">
+<div class="card"><span class="year">2026 – Present</span><h3>Our Lady of the Sacred Heart College of Guimba, Inc.</h3><p>Bachelor of Science in Information Technology</p></div>
+<div class="card"><span class="year">Grades 10–12</span><h3>Cuyapo National High School</h3><p>Secondary Education</p></div>
+</div></div></section>
+<section id="skills"><div class="inner"><p class="eyebrow">WHAT I CAN DO</p><h2>My Skills</h2><div class="grid">
+<div class="card"><h3>Technical Skills</h3><ul><li>HTML</li><li>CSS</li><li>Java Programming</li><li>Basic Computer Troubleshooting</li><li>Microsoft Word</li><li>Canva</li></ul></div>
+<div class="card"><h3>Personal Skills</h3><ul><li>Communication</li><li>Creativity</li><li>Teamwork</li><li>Problem Solving</li><li>Time Management</li><li>Willingness to Learn</li><li>Playing Sudoku</li><li>Cheerful Personality</li><li>Positive Attitude</li></ul></div>
+</div></div></section>
+<section class="tinted" id="java"><div class="inner"><p class="eyebrow">JAVA PROGRAMMING SAMPLE</p><h2>Tic Tac Toe Source Code</h2><div class="card"><pre><code>import java.util.Scanner;
+
+public class TicTacToe {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        char[] board = {&#x27;1&#x27;,&#x27;2&#x27;,&#x27;3&#x27;,&#x27;4&#x27;,&#x27;5&#x27;,&#x27;6&#x27;,&#x27;7&#x27;,&#x27;8&#x27;,&#x27;9&#x27;};
+        char player = &#x27;X&#x27;;
+        int moves = 0;
+        boolean finished = false;
+
+        System.out.println(&quot;=== TIC TAC TOE ===&quot;);
+        System.out.println(&quot;Player 1: X | Player 2: O&quot;);
+
+        while (moves &lt; 9 &amp;&amp; !finished) {
+            System.out.println();
+            System.out.println(&quot; &quot; + board[0] + &quot; | &quot; + board[1] + &quot; | &quot; + board[2]);
+            System.out.println(&quot;---+---+---&quot;);
+            System.out.println(&quot; &quot; + board[3] + &quot; | &quot; + board[4] + &quot; | &quot; + board[5]);
+            System.out.println(&quot;---+---+---&quot;);
+            System.out.println(&quot; &quot; + board[6] + &quot; | &quot; + board[7] + &quot; | &quot; + board[8]);
+
+            System.out.print(&quot;Player &quot; + player + &quot;, choose a spot (1-9): &quot;);
+            int choice = input.nextInt();
+
+            if (choice &lt; 1 || choice &gt; 9) {
+                System.out.println(&quot;Please choose a number from 1 to 9.&quot;);
+                continue;
+            }
+
+            int spot = choice - 1;
+            if (board[spot] == &#x27;X&#x27; || board[spot] == &#x27;O&#x27;) {
+                System.out.println(&quot;That spot is already taken. Try again.&quot;);
+                continue;
+            }
+
+            board[spot] = player;
+            moves++;
+
+            if ((board[0] == player &amp;&amp; board[1] == player &amp;&amp; board[2] == player) ||
+                (board[3] == player &amp;&amp; board[4] == player &amp;&amp; board[5] == player) ||
+                (board[6] == player &amp;&amp; board[7] == player &amp;&amp; board[8] == player) ||
+                (board[0] == player &amp;&amp; board[3] == player &amp;&amp; board[6] == player) ||
+                (board[1] == player &amp;&amp; board[4] == player &amp;&amp; board[7] == player) ||
+                (board[2] == player &amp;&amp; board[5] == player &amp;&amp; board[8] == player) ||
+                (board[0] == player &amp;&amp; board[4] == player &amp;&amp; board[8] == player) ||
+                (board[2] == player &amp;&amp; board[4] == player &amp;&amp; board[6] == player)) {
+                System.out.println(&quot;Player &quot; + player + &quot; wins!&quot;);
+                finished = true;
+            } else if (moves == 9) {
+                System.out.println(&quot;It&#x27;s a draw!&quot;);
+                finished = true;
+            } else {
+                if (player == &#x27;X&#x27;) {
+                    player = &#x27;O&#x27;;
+                } else {
+                    player = &#x27;X&#x27;;
+                }
+            }
+        }
+
+        System.out.println();
+        System.out.println(&quot;Final board:&quot;);
+        System.out.println(&quot; &quot; + board[0] + &quot; | &quot; + board[1] + &quot; | &quot; + board[2]);
+        System.out.println(&quot;---+---+---&quot;);
+        System.out.println(&quot; &quot; + board[3] + &quot; | &quot; + board[4] + &quot; | &quot; + board[5]);
+        System.out.println(&quot;---+---+---&quot;);
+        System.out.println(&quot; &quot; + board[6] + &quot; | &quot; + board[7] + &quot; | &quot; + board[8]);
+        System.out.println(&quot;Thanks for playing!&quot;);
+        input.close();
+    }
+}</code></pre></div></div></section>
+<section id="contact"><div class="inner"><p class="eyebrow">LET'S CONNECT</p><h2>Contact Information</h2><div class="card contact">
+<p><b>Email:</b> <a href="mailto:rangbendana@gmail.com">rangbendana@gmail.com</a></p>
+<p><b>GitHub:</b> <a href="https://github.com/rangbendana-code" target="_blank" rel="noopener">github.com/rangbendana-code</a></p>
+<p><b>Facebook:</b> <a href="https://www.facebook.com/share/1CT5W1DShs/" target="_blank" rel="noopener">Visit my Facebook profile</a></p>
+</div></div></section>
+<footer>© 2026 Jhon Ralph R. Bendaña | Personal Portfolio</footer>
+<script>
+const navLinks = document.querySelectorAll('.links a');
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.forEach(item => item.classList.remove('active'));
+    link.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
